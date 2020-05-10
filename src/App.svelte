@@ -1,12 +1,14 @@
 <script>
 	import Comp from './Comp.svelte';
+	import TodoList from './TodoList.svelte';
 	export let name;
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<Comp />
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+
+	<h2>Todos</h2>
+	<TodoList />
 </main>
 
 <style>
